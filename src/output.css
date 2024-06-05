@@ -568,6 +568,22 @@ video {
   margin-top: 6rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .grid{
   display: grid;
 }
@@ -587,4 +603,54 @@ video {
 
 .font-libreFranklin{
   font-family: "Libre Franklin", sans-serif;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
+.font-thin{
+  font-weight: 100;
+}
+
+.font-extralight{
+  font-weight: 200;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-neutral-gray{
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 59% / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
