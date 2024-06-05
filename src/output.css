@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
@@ -446,7 +448,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -500,7 +502,7 @@ video {
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,31 +556,35 @@ video {
   --tw-contain-style:  ;
 }
 
-.mb-12 {
+.mb-12{
   margin-bottom: 3rem;
 }
 
-.mb-24 {
+.mb-24{
   margin-bottom: 6rem;
 }
 
-.mt-24 {
+.mt-24{
   margin-top: 6rem;
 }
 
-.grid {
+.grid{
   display: grid;
 }
 
-.min-w-mobile {
+.min-w-mobile{
   min-width: 23.438rem;
 }
 
-.place-items-center {
+.place-items-center{
   place-items: center;
 }
 
-.px-8 {
+.px-8{
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.font-libreFranklin{
+  font-family: "Libre Franklin", sans-serif;
 }

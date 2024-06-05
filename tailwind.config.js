@@ -13,6 +13,9 @@ module.exports = {
         "neutral-gray": "hsl(0, 0%, 59%)",
         "neutral-very-dark-blue": "hsl(209, 33%, 12%)",
       },
+      fontFamily: {
+        libreFranklin: ['"Libre Franklin"', "sans-serif"],
+      },
     },
   },
   plugins: [],
