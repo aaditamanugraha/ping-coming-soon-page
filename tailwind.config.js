@@ -16,6 +16,10 @@ module.exports = {
       fontFamily: {
         libreFranklin: ['"Libre Franklin"', "sans-serif"],
       },
+      dropShadow: {
+        "primary-blue": "0 8px 4px  hsla(223, 87%, 63%, 0.2)",
+        "secondary-pale-blue": "0 8px 4px  hsla(223, 100%, 88%, 0.5)",
+      },
     },
   },
   plugins: [],
