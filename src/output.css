@@ -556,6 +556,11 @@ video {
   --tw-contain-style:  ;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -584,20 +589,76 @@ video {
   margin-top: 6rem;
 }
 
+.mb-32{
+  margin-bottom: 8rem;
+}
+
+.flex{
+  display: flex;
+}
+
 .grid{
   display: grid;
+}
+
+.size-6{
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .w-full{
   width: 100%;
 }
 
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.w-screen{
+  width: 100vw;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-2{
+  width: 0.5rem;
+}
+
+.w-2\/3{
+  width: 66.666667%;
+}
+
+.w-8\/12{
+  width: 66.666667%;
+}
+
 .min-w-mobile{
   min-width: 23.438rem;
 }
 
+.max-w-full{
+  max-width: 100%;
+}
+
 .place-items-center{
   place-items: center;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .rounded-full{
@@ -618,6 +679,30 @@ video {
   background-color: hsl(223 87% 63% / var(--tw-bg-opacity));
 }
 
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill{
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-center{
+  -o-object-position: center;
+     object-position: center;
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -626,6 +711,10 @@ video {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .font-libreFranklin{
@@ -674,6 +763,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline{
+  text-decoration-line: underline;
+}
+
 .placeholder-secondary-pale-blue::-moz-placeholder{
   --tw-placeholder-opacity: 1;
   color: hsl(223 100% 88% / var(--tw-placeholder-opacity));
@@ -694,7 +787,39 @@ video {
   background-color: hsl(223 100% 88% / var(--tw-bg-opacity));
 }
 
+.hover\:font-bold:hover{
+  font-weight: 700;
+}
+
+.hover\:font-semibold:hover{
+  font-weight: 600;
+}
+
+.hover\:underline:hover{
+  text-decoration-line: underline;
+}
+
 .hover\:drop-shadow-secondary-pale-blue:hover{
   --tw-drop-shadow: drop-shadow(0 8px 4px  hsla(223, 100%, 88%, 0.5));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.\[\&\>svg\]\:h-7>svg{
+  height: 1.75rem;
+}
+
+.\[\&\>svg\]\:w-7>svg{
+  width: 1.75rem;
+}
+
+.\[\&\>svg\]\:fill-\[\#1877f2\]>svg{
+  fill: #1877f2;
+}
+
+.\[\&\>svg\]\:fill-\[\#c13584\]>svg{
+  fill: #c13584;
+}
+
+.\[\&\>svg\]\:fill-black>svg{
+  fill: #000;
 }
