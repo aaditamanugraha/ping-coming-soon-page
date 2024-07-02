@@ -23,22 +23,22 @@
         <p class="text-xs font-light">Subscribe and get notified</p>
       </article>
 
-      <form action="" class="mb-16">
+      <form action="" class="mb-16 lg:flex-col">
         <input
-          class="w-full border px-8 py-3 mb-2 rounded-full border-secondary-pale-blue text-secondary-pale-blue placeholder-secondary-pale-blue"
+          class="w-full lg:w-fit lg:mr-2 border px-8 py-3 mb-2 rounded-full border-secondary-pale-blue text-secondary-pale-blue placeholder-secondary-pale-blue"
           type="email"
           name="email"
           id="email"
           placeholder="Your email address..."
         />
         <button
-          class="w-full px-8 py-3 mb-2 rounded-full bg-primary-blue hover:bg-secondary-pale-blue text-white drop-shadow-primary-blue hover:drop-shadow-secondary-pale-blue"
+          class="w-full lg:w-fit px-8 py-3 mb-2 rounded-full bg-primary-blue hover:bg-secondary-pale-blue text-white drop-shadow-primary-blue hover:drop-shadow-secondary-pale-blue"
         >
           Notify Me
         </button>
       </form>
 
-      <div class="mb-32">
+      <div class="mb-32 lg:w-1/2">
         <img
           src="./src/images/illustration-dashboard.png"
           alt="illustration-dashboard"
@@ -47,9 +47,11 @@
 
       <div class="flex space-x-4 mb-5">
         <div id="facebook-icon" class="border p-2 rounded-full">
-          <a href="#!" role="button">
+          <a href="#!" role="button" class="hover:bg-primary-blue">
             <!-- Facebook -->
-            <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1877f2]">
+            <span
+              class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1877f2] hover:[&>svg]:fill-[#fff]"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
                 <path
